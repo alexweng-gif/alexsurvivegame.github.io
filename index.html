@@ -1904,17 +1904,17 @@
 <div id="maintenance-overlay" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.95); z-index: 9999; display: flex; align-items: center; justify-content: center;">
     <div style="background-color: #2c3e50; color: white; max-width: 600px; padding: 30px; border-radius: 10px; text-align: center;">
         <h1 style="color: #f1c40f;">系統維護中</h1>
-        <p>親愛的冒險者，我們正在進行系統維護以提升遊戲體驗。</p>
+        <p>我們正在進行系統維護以提升遊戲體驗。</p>
         <p>維護期間暫時無法訪問遊戲，請稍後再來。</p>
         
         <div style="margin: 20px 0; padding: 10px; background-color: rgba(255, 255, 255, 0.1); border-radius: 5px;">
-            <p><strong>維護時間：</strong>2025年3月7日 15:00 - 18:00</p>
+            <p><strong>維護時間：</strong>2025年3月7日 8:30 - 12:30</p>
             <p><strong>預計完成：</strong><span id="countdown-time">03:00:00</span></p>
         </div>
         
         <p>維護內容：</p>
         <ul style="text-align: left; display: inline-block;">
-            <li>新增存檔系統</li>
+            <li>增加任務</li>
             <li>優化遊戲效能</li>
             <li>修復已知問題</li>
         </ul>
@@ -1926,7 +1926,7 @@
 <script>
     // 設定倒數計時目標時間（這裡設為當前時間+3小時）
     const maintenanceEnd = new Date();
-    maintenanceEnd.setHours(maintenanceEnd.getHours() + 3);
+    maintenanceEnd.setHours(maintenanceEnd.getHours() + 4);
     
     function updateMaintenanceCountdown() {
         const now = new Date();
